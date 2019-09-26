@@ -143,8 +143,8 @@
 <!-- /featured post -->
 
 <div class="row">
-  <div class="container">
-    <section class="customer-logos slider">
+  <div class="container center" style="width: 40%">
+    <section class="customer-logos center slider">
       <div class="slide"><img src="images/imgs/chap1.png"></div>
       <div class="slide"><img src="images/imgs/chap2.png"></div>
       <div class="slide"><img src="images/imgs/chap3.png"></div>
@@ -167,7 +167,10 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $('.customer-logos').slick({
-      slidesToShow: 1,
+      slidesToShow: 6,
+      fade: true,
+  // cssEase: 'linear',
+
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 1000,
