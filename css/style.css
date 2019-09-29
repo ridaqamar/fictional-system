@@ -522,24 +522,35 @@ textarea.form-control {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
-.card-img-overlay::before {
-  position: absolute;
-  content: "";
-  background: rgba(0, 0, 0, 0.3);
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+btn btn-outline-light.card-img-overlay::before {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
+
+btn btn-outline-light {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
 
 .card-content {
-  padding: 30px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 30px;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
 }
+
+
 
 .title-border {
   position: relative;
