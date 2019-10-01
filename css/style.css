@@ -24,7 +24,6 @@ body {
   color: #585757;
   background-attachment: fixed;
   background-size: cover; 
-  overflow-y: hidden;
 }
 
 p, .paragraph {
